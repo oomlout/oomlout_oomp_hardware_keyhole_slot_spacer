@@ -1,0 +1,332 @@
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: oobb_test_keyhole_spacer_01_01_4d2_ex_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+kwargs:
+  diameter_screw: m3_5_screw_wood
+  diameter_top: 7
+  extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+  height: 1
+  modes:
+  - 3dpr
+  note: ikea_dog_butt_hook
+  overwrite: true
+  thickness: 4.2
+  type: test_keyhole_spacer
+  width: 1
+name: keyhole_spacer
+project_name: C:\gh\oomlout_oomp_hardware_keyhole_slot_spacer
+thing:
+  components:
+  - - depth: 2.2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2.2
+      height: 1
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 0.0
+      r: 3.5
+      radius: 3.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 2.2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2.2
+      height: 1
+      inclusion: 3dpr
+      pos: *id001
+      r: 3.5
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 2.2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2.2
+      height: 1
+      inclusion: 'true'
+      pos: *id001
+      r: 3.5
+      radius: 3.5
+      shape: cylinder
+      type: positive
+      width: 1
+  - - depth: 2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2
+      height: 1
+      inclusion: laser
+      pos: &id002
+      - 0
+      - 0
+      - 2.2
+      r1: 3.5
+      r2: 3.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2
+      height: 1
+      inclusion: 3dpr
+      pos: *id002
+      r1: 3.5
+      r2: 3.0
+      shape: cylinder
+      type: positive
+      width: 1
+    - depth: 2
+      extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+      h: 2
+      height: 1
+      inclusion: 'true'
+      pos: *id002
+      r1: 3.5
+      r2: 3.0
+      shape: cylinder
+      type: positive
+      width: 1
+  - - objects:
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 1.7
+          height: 1
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 1
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: laser
+          pos: &id003
+          - 0
+          - 0
+          - -14.2
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 3dpr
+          pos: *id003
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 'true'
+          pos: *id003
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 1.9
+          height: 1
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 1
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: laser
+          pos: &id004
+          - 0
+          - 0
+          - -14.2
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 3dpr
+          pos: *id004
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 'true'
+          pos: *id004
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 1.7
+          height: 1
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 1
+      - - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: laser
+          pos: &id005
+          - 0
+          - 0
+          - -14.2
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 3dpr
+          pos: *id005
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - depth: 14.2
+          extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+          h: 14.2
+          height: 1
+          inclusion: 'true'
+          pos: *id005
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 180
+      - 0
+      type: rotation
+      typetype: n
+  components_objects:
+  - depth: 2.2
+    diameter_screw: m3_5_screw_wood
+    diameter_top: 7
+    extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+    height: 1
+    modes:
+    - 3dpr
+    note: ikea_dog_butt_hook
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 1.1
+    radius: 3.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 4.2
+    type: p
+    width: 1
+  - depth: 2
+    diameter_screw: m3_5_screw_wood
+    diameter_top: 7
+    extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+    height: 1
+    modes:
+    - 3dpr
+    note: ikea_dog_butt_hook
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 3.2
+    radius_1: 3.5
+    radius_2: 3.0
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 4.2
+    type: p
+    width: 1
+  - depth: 14.2
+    diameter: m3_5_screw_wood
+    diameter_screw: m3_5_screw_wood
+    diameter_top: 7
+    extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+    height: 1
+    modes:
+    - 3dpr
+    note: ikea_dog_butt_hook
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 4.2
+    type: n
+    width: 1
+  components_string:
+  - oobb_cylinder_shape_p_type_2.2_depth_0_0_1.1_pos_all_save_type_true_overwrite_'3dpr'_modes_1_width_1_height_4.2_thickness_m3_5_screw_wood_diameter_screw_7_diameter_top_ikea_dog_butt_hook_note_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook_extra_3.5_radius
+  - oobb_cylinder_shape_p_type_2_depth_0_0_3.2_pos_all_save_type_true_overwrite_'3dpr'_modes_1_width_1_height_4.2_thickness_m3_5_screw_wood_diameter_screw_7_diameter_top_ikea_dog_butt_hook_note_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook_extra_3.5_radius_1_3.0_radius_2
+  - oobb_screw_countersunk_shape_n_type_14.2_depth_all_save_type_true_overwrite_'3dpr'_modes_1_width_1_height_4.2_thickness_m3_5_screw_wood_diameter_screw_7_diameter_top_ikea_dog_butt_hook_note_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook_extra_m3_5_screw_wood_diameter_0_180_0_rot
+  description: test keyhole spacer 1x1x4.2
+  extra: m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\things\oobb_test_keyhole_spacer_01_01_4d2_ex_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+  height: 1
+  height_mm: 14
+  id: oobb_test_keyhole_spacer_01_01_4d2_ex_m3_5_screw_wood_diameter_screw_7_mm_diameter_top_note_ikea_dog_butt_hook
+  thickness: 4.2
+  thickness_mm: 4.2
+  type: test_keyhole_spacer
+  width: 1
+  width_mm: 14
